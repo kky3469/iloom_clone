@@ -17,3 +17,43 @@ body {
 ul {
 	list-style: none;
 }
+
+.d-none {
+	display: none;
+}
+
+a, a:link {
+	text-decoration: none;
+	color: var(--base-text-color);
+}
+
+
+
+/* =======================header ==========================*/
+.header-wrap {
+	max-width: 1280px;
+	height: 60px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#gnb, .items {
+	display: flex;
+}
+
+#img imgs {
+	position : absolute;
+}
+
+
+
+
+
+
+
+
+
+
