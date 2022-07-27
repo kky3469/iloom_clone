@@ -48,11 +48,9 @@ a, a:link {
 	position : absolute;
 }
 
-
-
-
-
-
+.promotion-list {
+	display :flex;
+}
 
 
 
