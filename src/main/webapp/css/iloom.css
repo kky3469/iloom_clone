@@ -30,6 +30,7 @@ a, a:link {
 /* bxslider  */
 .bx-wrapper {
 	border : 0;
+	margin-top: 60px;
 }
 
 .bx-wrapper .bx-prev {
@@ -45,6 +46,16 @@ a, a:link {
 
 
 /* =======================header ==========================*/
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw; /* 100%와 같은 비율, 공간을 100개로 조각낸 비율  */
+	z-index : 10000;
+	background: white;
+}
+
+
 .header-wrap {
 	max-width: 1280px;
 	height: 60px;
