@@ -78,7 +78,7 @@ header {
 /* ======================suggest========================*/
 .suggest {
 	max-width: 1280px;
-	height: 0 auto;
+	margin: 0 auto;
 }
 
 .sug-title {
