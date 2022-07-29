@@ -165,17 +165,48 @@ header {
 }
 
 .special-title a {
-	margin-left : 3em;
+	margin-left : 5em;
 }
 
+.special-list {
+	max-width: 1280px;
+	margin: 100px auto 50px;
+	display: grid;
+	grid-template-columns: repeat(4,1fr); /*fraction : 전체 공간의 합을 비율로 표현 제각각 비율 가능 ex)100px 200px 1fr 400px  */
+	column-gap: 1rem;
+}
 
+.special-list img {
+	max-width: 100%
+}
 
+.attach-img {
+	border-radius : 20px;
+	overflow: hidden;
+}
 
+.rank-point {
+	color : #b50000;
+	font-size: 1.250em;
+	letter-spacing: 3px;
+	margin: .5em 0; /*em:엠~, rem:알엠~  */
+}
 
+.write-title {
+	font-size: 1.250em;
+	font-weight: 800;
+}
 
-
-
-
+.write-body {
+	font-size: .875em;
+	text-overflow: ellipsis; /* 넘치면, 단축하기? ...처리!  */
+	overflow: hidden;
+   	word-break: break-word; /* vendor prefix : 표준 속성이 아닐때, 다른 브라우저가 지원할수 있는 접두어 추가  */
+  	
+  	display: -webkit-box;
+   	-webkit-line-clamp: 2;  /* 원하는 라인수 */
+   	-webkit-box-orient: vertical
+}
 
 
 
