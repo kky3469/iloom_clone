@@ -181,6 +181,7 @@ header {
 }
 
 .attach-img {
+	height: 230px;
 	border-radius : 20px;
 	overflow: hidden;
 }
@@ -207,6 +208,98 @@ header {
    	-webkit-line-clamp: 2;  /* 원하는 라인수 */
    	-webkit-box-orient: vertical
 }
+
+.item-image {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.relate-item {
+	display: flex;
+	justify-content: space-between;
+	margin: 1em 0 0 0;
+}
+
+/* .relate-item::before {
+	content:'';
+	border-top: 1px dashed red;
+	width: 100%;
+	display: block;
+} */
+
+.like-item::after {
+	content: '';
+	color: red;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../images/icon_likeHrt.svg")
+}
+
+.item-title {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 5em;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.item-location, .item-price {
+	font-size: .725em;
+	color: gray;
+}
+
+/*======================== aside ============================*/
+
+asdie {
+	background: #e0e0e0;
+}
+
+.sns {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.sns p {
+	text-align: center;
+}
+
+.sns p:nth-child(1) {
+	font-size: 1.750em;
+	text-transform: uppercase;
+	margin: 1em 0;
+}
+
+.sns p:nth-child(2) {
+	font-size: 1.250em;
+}
+
+
+.sns-posts {
+	display: flex; /*display:grid;*/
+}
+
+.sns-posts img {
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
